@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px;
+  background-color: crimson;
+}
+header {
+  background-color: lightcoral;
+  height: calc(100vh - 70px);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 72px;
+  color: white;
+}
+.subheader {
+  font-size: 36px;
+  margin: 16px 0px 24px 0px;
+  color: white;
+}
+button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+a {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo {
+  width: 300px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  padding-left: 16px;
+}
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+#about,
+#discord,
+#contact {
+    padding: 48px 0px;
+    background-color: lightcoral;
+}
+h2 {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: white;
+}
+.section__discription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about__img--wrapper {
+    width: 40%;
+    padding: 0px 24px;
+}
+img{
+    width: 100%;
+}
+.sectoin__discription--wrapper {
+    width: 60%;
+    padding: 0px 24px;
+}
+.section__discription--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+#discord {
+    background-color: lightcoral;
+}
+
+#contact {
+    background-color: lightcoral;
+}
+form {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0px 12px;
+}
+input, textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px 24px;
+}
+@media (max-width: 720px) {
+    .row{
+        flex-direction: column;
+    }
+.home__discription {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+.subheader {
+    text-align: center;
+    font-size: 20px;
+}
+ul {
+    display: none;
+}
+.section__discription {
+    flex-direction: column;
+}
+.sectoin__discription--wrapper {
+    width: 100%;
+}
+.about__img--wrapper {
+    width: 100%;
+}
+
+}
